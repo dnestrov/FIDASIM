@@ -300,8 +300,8 @@ contains
     read(66,*) inputs%impurity_charge 
     read(66,*) !# discharge parameters:         
     read(66,*) inputs%btipsign
-    read(66,*) inputs%ab       
-    read(66,*) inputs%ai    
+    read(66,*) inputs%ai       
+    read(66,*) inputs%ab    
     read(66,*) !# wavelength grid:    
     read(66,*) spec%nlambda 
     read(66,*) spec%lambdamin
